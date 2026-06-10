@@ -30,6 +30,7 @@ extra_css:
 nav:
   - Монитрон:
       - Главная страница: monitron/index.md
+      - Личный кабинет: monitron/lichniy-kabinet.md
       - Индикация объектов: monitron/indikaciya.md
       - Скачки данных: monitron/skachki.md
       - Проблемные датчики: monitron/problemnye.md
