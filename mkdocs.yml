@@ -1,0 +1,50 @@
+site_name: Монитрон — Инструкции
+theme:
+  name: material
+  language: ru
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+
+extra_javascript:
+  - javascripts/checklist.js
+
+extra_css:
+  - stylesheets/checklist.css
+
+nav:
+  - Монитрон:
+      - Главная страница: monitron/index.md
+      - Индикация объектов: monitron/indikaciya.md
+      - Скачки данных: monitron/skachki.md
+      - Проблемные датчики: monitron/problemnye.md
+      - Корректировки и сглаживания: monitron/korrektirovki.md
+      - Постановка на ТО: monitron/to.md
+      - Замена головы датчика: monitron/zamena.md
+      - Прогрев: monitron/progrev.md
+      - Удалённые ПК: monitron/udalenka.md
+      - Ошибки скрипта: monitron/oshibki.md
+  - На объекте:
+      - Главная страница: ob-ekte/index.md
+      - Датчик не определяется: ob-ekte/datchik.md
+      - Линия упала: ob-ekte/liniya.md
+      - Протечки: ob-ekte/protechki.md
+      - Шумящий датчик: ob-ekte/shum.md
+      - Запуск нового объекта: ob-ekte/zapusk.md
+      - Финальный контроль: ob-ekte/final.md
+      - Передача датчиков: ob-ekte/peredacha.md
