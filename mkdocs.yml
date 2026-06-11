@@ -20,6 +20,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - tables
+  - attr_list
+  - md_in_html
 
 extra_javascript:
   - javascripts/checklist.js
@@ -28,8 +30,10 @@ extra_css:
   - stylesheets/checklist.css
 
 nav:
+  - Главная: index.md
   - Монитрон:
       - Главная страница: monitron/index.md
+      - Личный кабинет: monitron/lichniy-kabinet.md
       - Индикация объектов: monitron/indikaciya.md
       - Скачки данных: monitron/skachki.md
       - Проблемные датчики: monitron/problemnye.md
