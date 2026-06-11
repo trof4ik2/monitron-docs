@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# База знаний Монитрон
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Выбери раздел:
 
-## Commands
+<div class="grid cards" markdown>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+-   :material-monitor-dashboard:{ .lg .middle } **Монитрон**
 
-## Project layout
+    ---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    Работа с системой мониторинга: личный кабинет, индикация, проблемные датчики, скачки данных, ТО, замена голов, прогрев, удалённые ПК, ошибки скрипта.
+
+    [:octicons-arrow-right-24: Перейти](monitron/index.md)
+
+-   :material-hard-hat:{ .lg .middle } **На объекте**
+
+    ---
+
+    Инструкции для полевых работ: запуск объекта, датчик не определяется, линия упала, протечки, шум, финальный контроль, передача датчиков.
+
+    [:octicons-arrow-right-24: Перейти](ob-ekte/index.md)
+
+</div>
